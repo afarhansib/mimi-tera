@@ -1,0 +1,42 @@
+{
+    "format_version": 2,
+    "metadata": {
+      "authors": [
+        "yotbu"
+      ]
+    },
+    "header": {
+      "name": "Mimi Tera",
+      "description": "Capture all item textures.",
+      "uuid": "c54da47b-1664-4b46-8a60-88f4d9bef60d",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "min_engine_version": [
+        1,
+        20,
+        0
+      ]
+    },
+    "modules": [
+      {
+        "type": "script",
+        "language": "javascript",
+        "uuid": "eb6e1f86-9f6f-4d42-b5db-0d8a05b01307",
+        "entry": "scripts/main.js",
+        "version": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.19.0"
+      }
+    ]
+  }
